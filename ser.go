@@ -5,10 +5,6 @@ import "net"
 import "log"
 import "encoding/json"
 
-type Message struct {
-	Id int
-}
-
 func main() {
 	ln, err := net.ListenPacket("udp", ":8081")
 	if err != nil {
