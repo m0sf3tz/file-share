@@ -1,0 +1,22 @@
+{
+    "Needs": {
+        "FileArr": [
+            {
+                "Name": "FilaA",
+                "Hash": 200
+            },
+            {
+                "Name": "FilaB",
+                "Hash": 450
+            }
+        ]
+    },
+    "Wants": {
+        "FileArr": [
+            {
+                "Name": "FilaC",
+                "Hash": 500
+            }
+        ]
+    }
+}
